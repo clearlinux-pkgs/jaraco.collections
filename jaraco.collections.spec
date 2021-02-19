@@ -4,7 +4,7 @@
 #
 Name     : jaraco.collections
 Version  : 3.0.0
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/74/ed/8ee1599924eb6c42b02e26a13e79f5069012b170401a42a8b8d6afe1f289/jaraco.collections-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/74/ed/8ee1599924eb6c42b02e26a13e79f5069012b170401a42a8b8d6afe1f289/jaraco.collections-3.0.0.tar.gz
 Summary  : Collection objects similar to those in stdlib by jaraco
