@@ -1,3 +1,18 @@
+v3.3.0
+======
+
+Add ``FreezableDefaultDict``.
+
+v3.2.0
+======
+
+Rely on PEP 420 for namespace package.
+
+v3.1.0
+======
+
+Refreshed packaging. Dropped dependency on six.
+
 v3.0.0
 ======
 
