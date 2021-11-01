@@ -4,7 +4,7 @@
 #
 Name     : jaraco.collections
 Version  : 3.4.0
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/d9/f8/da1c43345aa1ce0a98391497719cfc80d9664727431554a6aab5328481eb/jaraco.collections-3.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d9/f8/da1c43345aa1ce0a98391497719cfc80d9664727431554a6aab5328481eb/jaraco.collections-3.4.0.tar.gz
 Summary  : Collection objects similar to those in stdlib by jaraco
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1629141759
+export SOURCE_DATE_EPOCH=1635743359
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -88,8 +88,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.*/site-packages/jaraco/__init__.py
-rm -f %{buildroot}/usr/lib/python3.*/site-packages/jaraco/__pycache__/__init__.*
+rm -f %{buildroot}*/usr/lib/python3.*/site-packages/jaraco/__init__.py
+rm -f %{buildroot}*/usr/lib/python3.*/site-packages/jaraco/__pycache__/__init__.*
 
 %files
 %defattr(-,root,root,-)
